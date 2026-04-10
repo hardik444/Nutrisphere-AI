@@ -73,6 +73,9 @@ cd ml-service
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 
+
+#The system is containerized using Docker Compose at the root level, enabling seamless orchestration of microservices.
+
 ## Tech Stack
 
 - **Frontend**: React Native (iOS + Android)
